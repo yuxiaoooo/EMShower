@@ -11,6 +11,7 @@ Hola!! This repository contains scripts for EM Shower studies with testbeam 2023
 ## Scripts
 
 - **`truth_MC_study.ipynb`** – Plot the variable distributions using the truth MC information
+- **`dbscan_MC.ipynb`** - Study the DBSCAN Clustering Method on electron MC, and compare its performance with our old method.
 
 ## Data (*.csv)
 
@@ -21,5 +22,7 @@ Hola!! This repository contains scripts for EM Shower studies with testbeam 2023
 
 - **`data/MC`** - MC data
 - `data/MC/select.csv`: MC sample with a basic preliminary cut `nseg>=3``
+- `data/MC/axis_old.csv`: axis information obtained by our "old method"
+- `data/MC/nue_truth.csv`: truth information in nueCC 
 - `data/MC/cylinder_truth.csv`: MC sample after the **truth** cylinder selection. Which means the cylinder axis is the truth primary electron direction recorded in nueCC samples.
 - `data/MC/shower_truth.csv`: MC sample truth shower information after the **truth** cylinder selection. Including important shower variables.
