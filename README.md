@@ -1,8 +1,6 @@
 # EMShower Studies at FASER
 
-## Overview
-
-This repository contains scripts for EM Shower studies with testbeam 2023 at the FASER experiment. Below is an overview of the script structure and their functionalities.
+Hola!! This repository contains scripts for EM Shower studies with testbeam 2023 at the FASER experiment. Below is an overview of the script structure and their functionalities.
 
 ## Utils
 
