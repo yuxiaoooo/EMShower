@@ -10,17 +10,29 @@ Hola!! This repository contains scripts for EM Shower studies with testbeam 2023
 
 ## Scripts
 
+#### MC Studies
+
 - **`truth_MC_study.ipynb`** – Plot the variable distributions using the truth MC information
 - **`dbscan_MC.ipynb`** - Study the DBSCAN Clustering Method on electron MC, and compare its performance with our old method.
 
+#### Testbeam Data Studies
+
+- **`data_preprocess.ipynb`** - Prepare the csv data file we need.
+- **``**
+
+#### Technique Demonstrations
+
+- **`dbscan.ipynb`** - DBSCAN demonstration.
+- **`hdbscan.ipynb`** - HDBSCAN demonstration.
+
 ## Data (*.csv)
 
-- **`data/testbeam`** - Testbeam data
+#### **`data/testbeam`** - Testbeam data
 - `data/testbeam/select` - Original scanned data with a basic preliminary cut `nseg>=3`
 - `data/testbeam/cylinder` - testbeam data after cylinder selections. The segments and tracks in the same cylinder are regarded as the same event, and are assigned the same event ID.
 - `data/testbeam/shower` - testbeam data shower information. Including important shower variables.
 
-- **`data/MC`** - MC data
+#### **`data/MC`** - MC data
 - `data/MC/select.csv`: MC sample with a basic preliminary cut `nseg>=3``
 - `data/MC/axis_old.csv`: axis information obtained by our "old method"
 - `data/MC/nue_truth.csv`: truth information in nueCC 
